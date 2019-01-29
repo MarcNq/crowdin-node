@@ -17,7 +17,6 @@
   ],
   "dependencies": {
     "bluebird": "^2.9.21",
-    "graceful-fs": "^3.0.6",
     "js-yaml": "^3.2.7",
     "lodash": "^3.6.0",
     "request": "^2.54.0",
