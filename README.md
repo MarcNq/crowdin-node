@@ -52,7 +52,7 @@ You might call `export()` before to ensure you have the latest translations.
 ### .downloadToStream(Stream)
 Downloads the translations ZIP to the specified stream. Uses `download()` and returns an empty Promise.
 
-### ~.downloadToZip(String path)~ (Removed)
+### .downloadToZip(String path)
 Downloads the translations ZIP to the specified path. Uses `download()` and returns an empty Promise.
 
 ### .downloadToPath(String path)
