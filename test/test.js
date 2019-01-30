@@ -43,8 +43,8 @@ api.get('/test/get', function(req, res) {
 // postRequest
 
 api.post('/test/post', bodyParser.urlencoded({extended: false}), function(req, res) {
-    req.body.should.have.property('key').equal(config.apiKey);
-    req.query.should.have.property('json');
+    should(req.body).have.property('key').equal(config.apiKey);
+    should(req.query).have.property('json');
     res.send();
 });
 
